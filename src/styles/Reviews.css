@@ -1,0 +1,55 @@
+.review-div {
+  @apply border flex flex-col justify-center items-center bg-gray-50 rounded-2xl py-8 gap-2
+}
+
+@media (max-width: 1300px) {
+  .first-review {
+    flex-direction: row; 
+    width: 100%;
+  }
+
+  .review-div {
+    flex: 1;
+    min-width: 300px;
+  }
+}
+
+.review-para1 {
+  @apply text-3xl font-bold text-purple-500
+}
+
+.review-para2 {
+  @apply text-gray-400 text-xl
+}
+
+.dark .comments,
+.dark .review-div {
+  background-color: #272822;
+}
+
+.dark .new-comment {
+  background-color: #272822;
+}
+
+.hacker-review-box .review-div {
+  background: #0b0b0b;
+  border: 1px solid #7f1d1d;
+  color: #fecaca;
+}
+
+.comment-hacker {
+  background: linear-gradient(145deg, #0b0b0b, #160000);
+  border-color: #7f1d1d;
+  color: #fecaca;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.25);
+}
+
+.hacker-add-review {
+  background: linear-gradient(135deg, #160000, #000);
+  border: 1px solid #7f1d1d;
+  color: #fca5a5;
+}
+
+.hacker-add-review input {
+  background-color: #160000;
+}

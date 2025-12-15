@@ -1,0 +1,64 @@
+.buttonn {
+  @apply rounded-md font-medium text-base text-sm
+}
+
+.sign-up {
+  background-color: rgb(130, 5, 247);
+  color: white;
+  @apply hover:opacity-90 font-medium
+}
+
+.sign-in {
+  @apply hover:bg-slate-100
+}
+
+.dark .nav-open {
+  background-color: #272822 !important;
+}
+
+.nav-s input:focus {
+  background: var(--white);
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.1);
+}
+
+.nav-s {
+  display: none;
+  position: relative;
+  margin-left: auto;
+  margin-right: 15px;
+  opacity: 0;
+  transform: translateX(10px);
+  transition: all 0.3s ease-out;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  background: #f3f4f6;
+  font-size: 0.9rem;
+  outline: none;
+  transition: all 0.2s;
+}
+
+.nav-s input {
+  background-color: #f3f4f6;
+}
+
+body.scrolled-mode .nav-s {
+  display: flex; 
+  align-items: center;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

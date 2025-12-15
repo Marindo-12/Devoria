@@ -1,0 +1,380 @@
+{
+  "brand": "Devoria",
+  "nav": {
+    "developers": "Développeurs",
+    "projects": "Projets",
+    "communities": "Communautés"
+  },
+  "buttons": {
+    "signIn": "Se connecter",
+    "signUp": "S'inscrire"
+  },
+  "developersPage": {
+    "title": "Parcourir les développeurs",
+    "subtitle": "Trouvez des développeurs talentueux avec les compétences dont vous avez besoin",
+    "searchPlaceholder": "Rechercher des développeurs...",
+    "noResults": "Aucun résultat trouvé"
+  },
+  "filterPage": {
+    "filterByCategory": "Filtrer par catégorie",
+    "categories": {
+      "all": "Tous",
+      "hack": "Hackers",
+      "webDevelopment": "Développement Web",
+      "videoEditor": "Monteur Vidéo",
+      "design": "Design",
+      "mobileApps": "Applications Mobiles",
+      "backend": "Backend",
+      "devOps": "DevOps",
+      "aiMl": "IA/ML"
+    },
+    "showingDevelopers": "Affichage de {{count}} développeurs",
+    "advancedFilters": "Filtres Avancés",
+    "location": "Localisation",
+    "locationPlaceholder": "Ville ou État",
+    "experience": "Expérience",
+    "experienceOptions": {
+      "any": "Toutes",
+      "junior": "Junior (0 - 2 ans)",
+      "mid": "Intermédiaire (3 - 5 ans)",
+      "senior": "Senior (+6 ans)"
+    },
+    "skills": "Compétences",
+    "skillsPlaceholder": "ex. React, Python...",
+    "rating": "Évaluation",
+    "ratingOptions": {
+      "any": "Toutes",
+      "5stars": "5 étoiles",
+      "4plus": "4+ étoiles",
+      "3plus": "3+ étoiles"
+    }
+  },
+  "projects": {
+    "title": "Parcourir les Projets",
+    "subtitle": "Découvrez des projets inspirants réalisés par des développeurs talentueux",
+    "searchPlaceholder": "Rechercher des projets...",
+    "noResults": "Aucun résultat trouvé",
+    "showing": "Affichage de {{count}} projets",
+    "filters": {
+      "advanced": "Filtres Avancés",
+      "category": "Catégorie",
+      "technology": "Technologie",
+      "sort": "Trier Par",
+      "categories": {
+        "all": "Toutes les catégories",
+        "web": "Développement web",
+        "mobile": "Applications mobiles",
+        "ai": "IA et Machine Learning",
+        "blockchain": "Blockchain"
+      },
+      "technologies": {
+        "any": "Toutes",
+        "react": "React",
+        "vue": "Vue",
+        "node": "Node.js",
+        "angular": "Angular",
+        "rn": "React Native"
+      },
+      "sortOptions": {
+        "popular": "Les plus populaires",
+        "recent": "Les plus récents",
+        "rating": "Les mieux notés"
+      }
+    }
+  },
+  "developerInsideProfile": {
+    "developerNotFound": "Développeur introuvable.",
+    "availableForHire": "Disponible pour un contrat",
+    "reviews": "avis",
+    "requestService": "Demander un service",
+    "sendMessage": "Envoyer un message",
+    "tabs": {
+      "about": "À propos",
+      "portfolio": "Portfolio",
+      "reviews": "Avis",
+      "services": "Services"
+    },
+    "reviewsPage": {
+      "noReviews": "Aucun avis pour le moment.",
+      "averageRating": "Note moyenne",
+      "totalReviews": "Nombre d'avis",
+      "positiveFeedback": "Avis positifs",
+      "comments": "Commentaires"
+    },
+    "services": {
+      "hour": "heure",
+      "learnMore": "En savoir plus"
+    },
+    "serviceNames": {
+      "securityAudit": "Audit de sécurité",
+      "penetrationTesting": "Test d’intrusion",
+      "vulnerabilityAssessment": "Analyse des vulnérabilités",
+      "web": "Développement Web",
+      "mobile": "Développement Mobile",
+      "design": "Design UI/UX",
+      "database": "Optimisation De Données",
+      "cloud": "Services Cloud",
+      "api": "Intégration API",
+      "api2": "Développement API",
+      "front": "Développement Frontend",
+      "devOps": "Services DevOps",
+      "deployment": "Pipelines de Déploiement",
+      "videoEd": "Montage Vidéo",
+      "videoAds": "Publicités Vidéo pour le web",
+      "mobileApps": "Applications Mobiles"
+    },
+    "serviceDescriptions": {
+      "securityAudit": "Audit de sécurité approfondi pour identifier les failles des systèmes, applications et infrastructures.",
+      "penetrationTesting": "Tests d’intrusion autorisés simulant des attaques réelles afin d’évaluer la résistance du système.",
+      "vulnerabilityAssessment": "Analyse complète des vulnérabilités avec rapports détaillés et stratégies de correction.",
+      "web": "Création de sites web rapides, modernes et responsives...",
+      "mobile": "Applications iOS et Android.",
+      "design": "Designs modernes centrés sur le produit.",
+      "api": "APIs RESTful et GraphQL…",
+      "api2": "Développement d'API backend sécurisées",
+      "data": "Optimisation haute performance MongoDB & SQL",
+      "backend": "Intégration d'API backend pour applications mobiles...",
+      "uis": "Interfaces utilisateur belles et responsives.",
+      "cicd": "CI/CD, automatisation, conteneurs",
+      "api3": "Déploiement et mise à l'échelle d'API sur le cloud",
+      "editing": "Montage cinématographique & motion design",
+      "ads": "Publicités et contenus vidéo de haute qualité pour les sites web"
+    },
+    "hackerWarning": {
+      "title": "Services Hacker Restreints",
+      "message": "Ces services sont sensibles et réservés à un usage défensif et autorisé. Voulez-vous continuer ?",
+      "confirm": "Continuer",
+      "cancel": "Quitter"
+    },
+    "aboutMe": {
+      "title": "À propos de moi",
+      "description1": {
+        "para1": "Je suis développeur full-stack à Meknès, spécialisé dans la création d'applications web évolutives et performantes. Avec plus de 8 ans d'expérience sur React, Node.js et les technologies cloud, j'aime concevoir des architectures propres et maintenables qui rendent les systèmes complexes faciles à utiliser.",
+        "para2": "J'adore transformer les idées en produits aboutis et aider les entreprises à se développer grâce à une ingénierie intelligente et des décisions réfléchies en UI/UX."
+      },
+      "description2": {
+        "para1": "Je suis ingénieur backend spécialisé en Python, Django et MongoDB. J'aime concevoir des systèmes côté serveur sécurisés, efficaces et évolutifs qui alimentent les applications modernes.",
+        "para2": "Au cours des dernières années, j'ai aidé des startups et des entreprises à construire des architectures backend solides, à optimiser les performances des bases de données et à fournir des API fiables utilisées par des milliers d'utilisateurs."
+      },
+      "description3": {
+        "para1": "Je suis développeur mobile basé à Paris, passionné par la création d'expériences mobiles belles et intuitives. Je me spécialise dans React Native, Swift et Kotlin, ce qui me permet de construire des applications fluides pour iOS et Android.",
+        "para2": "Je me concentre sur une interface utilisateur propre, des animations fluides et la performance. J'aime donner vie aux idées créatives et construire des applications que les utilisateurs adorent utiliser au quotidien."
+      },
+      "description4": {
+        "para1": "Je suis développeur UI/UX axé sur la création d'expériences web modernes, visuellement attrayantes et conviviales. Avec une forte expertise en React et développement frontend, je combine design et ingénierie pour construire des interfaces fluides, intuitives et agréables.",
+        "para2": "Je crois qu'un excellent design ne se limite pas à l'apparence, mais aussi à la façon dont il fonctionne."
+      },
+      "description5": {
+        "para1": "Je suis ingénieur DevOps passionné par la construction d'infrastructures fiables, évolutives et automatisées. Je travaille avec AWS, Docker et Kubernetes pour aider les entreprises à déployer plus rapidement et à fonctionner plus efficacement.",
+        "para2": "Ma passion est de créer des pipelines CI/CD, de conteneuriser des applications et de garantir le bon fonctionnement des serveurs 24h/24 et 7j/7."
+      },
+      "description6": {
+        "para1": "Je suis monteur vidéo et motion designer spécialisé dans la création de visuels engageants pour les marques et les créateurs. En utilisant des outils comme After Effects, Premiere Pro et DaVinci Resolve, je transforme les idées en histoires cinématographiques.",
+        "para2": "J'adore allier créativité et précision technique pour produire des vidéos qui captent l'attention et laissent une impression durable."
+      },
+      "description7": {
+        "para1": "Hacker et spécialiste en cybersécurité, spécialisé dans l’identification des vulnérabilités des réseaux, applications et systèmes à travers des tests d’intrusion autorisés.",
+        "para2": "Propose des audits de sécurité, des analyses de failles et des stratégies défensives afin de renforcer la protection des infrastructures numériques."
+      },
+      "skills": "Compétences et Expertise"
+    },
+    "requestPage": {
+      "title": "Décrivez votre projet",
+      "subtitle": "Fournissez des détails afin que le développeur puisse mieux comprendre vos besoins",
+      "detailsTitle": "Détails du projet",
+      "detailsSubtitle": "Plus vous fournissez d'informations, mieux le développeur pourra vous aider",
+      "projectTitle": "Titre du projet",
+      "projectTitlePlaceholder": "ex : Développement d'un site e-commerce",
+      "projectDescription": "Description du projet",
+      "projectDescriptionPlaceholder": "Décrivez les objectifs, les fonctionnalités et les exigences spécifiques de votre projet...",
+      "budget": "Fourchette de budget",
+      "budgetSelect": "Sélectionnez un budget",
+      "budget1": "Moins de 1000$",
+      "budget2": "1500$ - 4000$",
+      "budget3": "5000$ - 8000$",
+      "budget4": "10000$ et plus",
+      "timeline": "Délai",
+      "timelineSelect": "Sélectionnez un délai",
+      "timeline1": "Dès que possible (1-2 semaines)",
+      "timeline2": "1 mois",
+      "timeline3": "3-6 mois",
+      "timeline4": "6 mois et plus",
+      "tech": "Exigences techniques",
+      "techPlaceholder": "Listez les technologies, plateformes ou intégrations nécessaires...",
+      "cancel": "Annuler",
+      "sendRequest": "Envoyer la demande",
+      "successMessage": "Message envoyé avec succès !",
+      "devInfo": "Informations sur le développeur",
+      "rate": "Tarif :",
+      "availability": "Disponibilité :",
+      "responseTime": "Temps de réponse :",
+      "responseWithin": "Dans les 24h",
+      "tips": "Conseils pour réussir",
+      "tip1": "Soyez précis concernant les objectifs du projet",
+      "tip2": "Ajoutez des exemples ou références si possible",
+      "tip3": "Mentionnez tout code ou ressource existante",
+      "tip4": "Clarifiez votre budget et vos délais",
+      "alertFields": "Veuillez remplir tous les champs obligatoires !"
+    }
+  },
+  "projectInsideProfile": {
+    "backToProjects": "Retour aux projets",
+    "price": "Prix",
+    "deliveryTime": "Délai de livraison",
+    "support": "Support",
+    "buyNow": "Acheter maintenant",
+    "contactCreator": "Contacter le créateur",
+    "viewProfile": "Voir le profil",
+    "technologiesUsed": "Technologies utilisées",
+    "aboutThisProject": "À propos de ce projet",
+    "views": "Vues",
+    "likes": "J'aime",
+    "comments": "Commentaires",
+    "like": "J'aime ",
+    "share": "Partager",
+    "commentsTitle": "Commentaires ",
+    "commentPlaceholder": "Partagez vos pensées à propos de ce projet...",
+    "postComment": "Publier",
+    "reviews": "avis"
+  },
+  "homePage": {
+    "hero": {
+      "title": "Connectez-vous avec <span class='text-highlight'> des développeurs d'élite</span>",
+      "subtitle": "Devoria comble le fossé entre visionnaires et développeurs. Trouvez des talents, montrez vos compétences et construisez le futur ensemble.",
+      "searchPlaceholder": "Rechercher des développeurs..."
+    },
+    "getStarted": {
+      "title": "Commencez avec Devoria",
+      "browseDevelopers": {
+        "title": "Parcourir les développeurs",
+        "desc": "Découvrez des développeurs talentueux aux compétences et expériences variées",
+        "link": "En savoir plus"
+      },
+      "exploreProjects": {
+        "title": "Explorer les projets",
+        "desc": "Découvrez des projets inspirants et voyez ce qui est possible",
+        "link": "En savoir plus"
+      },
+      "joinCommunities": {
+        "title": "Rejoindre des communautés",
+        "desc": "Connectez-vous avec des développeurs partageant vos intérêts dans des groupes spécialisés",
+        "link": "En savoir plus"
+      },
+      "postServices": {
+        "title": "Publier des services",
+        "desc": "Proposez votre expertise et développez votre activité freelance",
+        "link": "En savoir plus"
+      }
+    },
+    "featuredDevelopers": {
+      "title": "Développeurs en vedette",
+      "desc": "Connectez-vous avec des développeurs de haut niveau prêts à donner vie à vos idées",
+      "viewAll": "Voir tous les développeurs"
+    },
+    "trendingProjects": {
+      "title": "Projets en tendance",
+      "desc": "Inspirez-vous des projets incroyables de notre communauté",
+      "viewAll": "Explorer tous les projets"
+    },
+    "whyDevoria": {
+      "title": "Pourquoi Devoria",
+      "subtitle": "Conçu pour les développeurs et équipes <span class='text-high'>qui veulent plus</span>",
+      "desc": "Devoria connecte les développeurs ambitieux avec de réelles opportunités. Que vous montriez vos compétences ou recherchiez des talents, notre plateforme vous aide à collaborer, grandir et créer des produits numériques significatifs.",
+      "features": {
+        "findDevelopers": "Trouvez les meilleurs développeurs : Accédez à des développeurs compétents et vérifiés prêts à rejoindre votre vision.",
+        "showcaseSkills": "Montrez vos compétences : Créez un profil qui met en valeur votre talent, expérience et projets réalisés.",
+        "collaborate": "Collaborez facilement : Connectez-vous avec des équipes, rejoignez des projets et construisez plus vite et efficacement."
+      },
+      "cta": "Rejoignez Devoria aujourd'hui"
+    },
+    "team": {
+      "title": "Qui nous sommes",
+      "subtitle": "Pas seulement une plateforme — un <span class='text-high'>écosystème orienté développeur</span>.",
+      "lead": "Chez Devoria, nous croyons que les grands produits commencent par de grands talents. Notre mission est de permettre aux développeurs et aux équipes de disposer des outils et de la visibilité dont ils ont besoin pour collaborer et se développer.",
+      "values": {
+        "mission": "Connecter les développeurs avec des opportunités, des équipes et des projets significatifs dans le monde entier.",
+        "values": "Transparence, collaboration et apprentissage continu — pas d'ego, pas de barrières."
+      },
+      "desc": "Nous sommes une équipe de développeurs, designers et innovateurs qui comprennent les défis réels de la création de logiciels. Devoria a été créé pour supprimer les obstacles, mettre en valeur les talents et aider les créateurs à transformer les idées en produits concrets et impactants.",
+      "meetTeam": "Rencontrez l'équipe"
+    },
+    "ctaSection": {
+      "readyTitle": "Prêt à commencer ?",
+      "readyDesc": "Rejoignez des milliers de développeurs et de clients construisant le futur ensemble",
+      "browseDevelopers": "Parcourir les développeurs",
+      "signUp": "Inscrivez-vous maintenant"
+    },
+    "cloudCTA": {
+      "title": "Prêt à réduire vos coûts Cloud ?",
+      "desc": "Ne laissez pas votre infrastructure brûler votre budget. Demandez votre audit flash gratuit (valeur 1500€).",
+      "emailPlaceholder": "votre@email.com",
+      "button": "Recevoir mon audit",
+      "note": "🔒 Pas de spam. Juste de la tech."
+    }
+  },
+  "createCommunity": {
+    "title": "Créez votre communauté",
+    "subtitle": "Construisez un espace où les développeurs peuvent se connecter, collaborer et évoluer ensemble",
+    "detailsTitle": "Détails de la communauté",
+    "detailsSubtitle": "Configurez votre communauté avec un nom, une description et des paramètres de confidentialité",
+    "nameLabel": "Nom de la communauté *",
+    "namePlaceholder": "ex : React Developers Hub",
+    "descriptionLabel": "Description *",
+    "descriptionPlaceholder": "Décrivez ce qu'est votre communauté...",
+    "tagsLabel": "Technologies/Langages (séparés par des virgules) *",
+    "tagsPlaceholder": "JavaScript, Python, React...",
+    "privacyLabel": "Type de communauté *",
+    "privacyPublic": "🌍 Publique",
+    "privacyPrivate": "🔒 Privée",
+    "accessCodeLabel": "Code d'accès *",
+    "accessCodeHelper": "Les membres devront entrer ce code pour rejoindre la communauté.",
+    "coverImageLabel": "Image de couverture *",
+    "or": "ou",
+    "imageUrlPlaceholder": "Entrez une URL d'image...",
+    "cancel": "Annuler",
+    "submit": "Créer la communauté"
+  },
+  "myCommunity": {
+    "back": "Retour",
+    "title": "Mes Communautés"
+  },
+  "communities": {
+    "title": "Communautés",
+    "subtitle": "Rejoignez des groupes spécialisés et connectez-vous avec des développeurs",
+    "myCommunities": "Mes Communautés",
+    "createCommunity": "Créer une communauté",
+    "searchPlaceholder": "Rechercher une communauté...",
+    "back": "Retour"
+  },
+  "signin": {
+    "welcomeBack": "Bon retour",
+    "description": "Connectez-vous pour accéder à votre tableau de bord, vos préférences et vos éléments enregistrés. Simple et sécurisé — juste votre email et votre mot de passe.",
+    "tip": "Astuce : Si vous n'avez pas de compte, vous pouvez en créer un sur la page d'inscription.",
+    "signinTitle": "Connectez-vous à votre compte",
+    "enterDetails": "Entrez vos informations ci-dessous.",
+    "email": "Email",
+    "password": "Mot de passe",
+    "remember": "Se souvenir",
+    "forgot": "Mot de passe oublié ?",
+    "submit": "Se connecter",
+    "noAccount": "Pas de compte ?",
+    "signup": "Inscrivez-vous"
+  },
+  "signup": {
+    "welcome": "Créez votre compte",
+    "description": "Créez un compte gratuit pour sauvegarder vos paramètres et accéder plus tard aux fonctionnalités premium. Nous gardons tout sécurisé et simple.",
+    "tip": "Remplissez le formulaire pour commencer.",
+    "signupTitle": "Créer votre compte",
+    "enterDetails": "Entrez vos informations ci-dessous.",
+    "fullname": "Nom complet",
+    "fullnamePlaceholder": "John Doe",
+    "email": "Email",
+    "emailPlaceholder": "vous@domaine.com",
+    "password": "Mot de passe",
+    "passwordPlaceholder": "Choisissez un mot de passe",
+    "submit": "Créer un compte",
+    "alreadyAccount": "Vous avez déjà un compte ?",
+    "signin": "Se connecter",
+    "privacy": "Confidentialité : Nous ne partagerons jamais votre email."
+  }
+}

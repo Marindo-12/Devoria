@@ -1,0 +1,238 @@
+:root {
+  --primary: #7c3aed;
+  --primary-hover: #6d28d9;
+  --text-main: #111827;
+  --text-light: #6b7280;
+  --bg-light: #f9fafb;
+  --white: #ffffff;
+  --border: #e5e7eb;
+  --radius: 12px;
+  --shadow: 0 8px 30px rgba(15,23,42,0.06);
+}
+
+.card {
+  display: flex;
+  flex-direction: column; 
+  gap: 0;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  background: var(--white);
+}
+@media (min-width: 1024px) {
+  .card {
+    flex-direction: row !important;
+  }
+}
+.form-side {
+  background: linear-gradient(180deg, #fff, #fbfbff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero {
+  background: linear-gradient(135deg, rgba(25,72,213,0.03), rgba(124,58,237,0.04));
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+
+.logo {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  background: black;
+  box-shadow: 0 10px 30px rgba(124,58,237,0.12);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.brand h1 {
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.hero p {
+  color: var(--text-light);
+  max-width: 360px;
+  line-height: 1.5;
+}
+
+.signup-page {
+  width: 100%;
+  max-width: 320px;
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+.muted {
+  color: var(--text-light);
+  margin-bottom: 18px;
+}
+
+.field {
+  margin-bottom: 14px;
+  display: flex;
+  gap: 8px;
+}
+
+label {
+  font-size: .86rem;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.signup-page input[type="text"],
+.signup-page input[type="email"],
+.signup-page input[type="password"] {
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  font-size: 1rem;
+  outline: none;
+  transition: 0.2s;
+}
+
+.signup-page input:focus {
+  border-color: var(--primary);
+  box-shadow: 0 8px 30px rgba(124,58,237,0.08);
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  background: linear-gradient(90deg, var(--primary), var(--primary-hover));
+  color: white;
+  box-shadow: 0 10px 30px rgba(124,58,237,0.12);
+}
+
+.alt {
+  display: block;
+  text-align: center;
+  margin-top: 14px;
+  color: var(--text-light);
+  font-size: .95rem;
+}
+
+.small-link {
+  color: var(--primary);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.hero-inner {
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.hack {
+  @apply w-full rounded-lg bg-black text-red-500 shadow-sm shadow-red-400 font-medium py-2 md:mt-3
+}
+
+.hack-p {
+  @apply text-red-500 font-medium text-center
+}
+
+.popup-overlay1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: var(--shadow);
+  transform: none;
+}
+
+.popup1 {
+  background: linear-gradient(135deg, #ff0000, #000);
+  color: white;
+  padding: 2rem 2.5rem;
+  border-radius: 12px;
+  text-align: center;
+  width: 350px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+  transform: scale(0.8);
+  animation: scaleIn 0.3s forwards;
+}
+
+.popup1 h2 {
+  font-size: 1.5rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.popup1 p {
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+  color: #bcbcbc;
+}
+
+.popup1-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.btn-go {
+  flex: 1;
+  background-color: #e74c3c;
+  color: white;
+  padding: 0.7rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn-go:hover {
+  background-color: #c0392b;
+}
+
+.btn-exit {
+  flex: 1;
+  background-color: #7f8c8d;
+  color: white;
+  padding: 0.7rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn-exit:hover {
+  background-color: #636e72;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes scaleIn {
+  to { transform: scale(1); }
+}

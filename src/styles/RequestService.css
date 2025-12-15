@@ -1,0 +1,107 @@
+.first-desc,
+.second-desc1 {
+  @apply bg-slate-50 border rounded-2xl px-6 py-8 flex flex-col gap-6
+}
+
+.second-desc2 {
+  @apply border rounded-2xl p-6 flex flex-col gap-4 bg-purple-100 border-purple-300
+}
+
+.span {
+  color: red;
+}
+
+.dark .first-desc,
+.dark .second-desc1 {
+  background-color: #272822;
+  color: #b4b4b3;
+}
+
+.dark .second-desc2 {
+  background-color: #9100f99e;
+  border-color: #5C5B52;
+  color: #CFCFCF;
+}
+
+.dark .inputM,
+.dark .selectM,
+.dark .textM {
+  background-color: #3B3A32;
+  color: #CFCFCF;
+}
+.inputM,
+.selectM,
+.textM {
+  @apply border rounded-xl p-3 w-full text-gray-500
+}
+
+.selectM {
+  @apply appearance-auto
+}
+
+.textM {
+  @apply h-40 resize-none
+}
+
+.button {
+  @apply flex-1 rounded-lg py-2 font-medium 
+}
+
+.send {
+  @apply bg-purple-600 text-white flex items-center justify-center hover:bg-purple-700
+}
+
+.cancel {
+  @apply border hover:bg-gray-100
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease forwards;
+}
+
+.hacker-theme {
+  background: linear-gradient(135deg, #0b0000, #3b0000);
+  color: #fca5a5;
+  padding-bottom: 50px;
+}
+
+.hacker-theme .first-desc {
+  background-color: #160000;
+}
+
+.hacker-info-box {
+  background: linear-gradient(135deg, #160000, #000);
+  border: 1px solid #7f1d1d;
+  color: #fecaca;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+.hacker-input {
+  background-color: #1a0000 !important;
+  color: #fca5a5 !important;
+  border: 1px solid #7f1d1d !important;
+}
+
+.hacker-button {
+  background-color: #7f1d1d !important;
+  color: #fff !important;
+  border: 1px solid #ff0000;
+}
+
+.hacker-button:hover {
+  background-color: #ff0000 !important;
+  color: #000 !important;
+}

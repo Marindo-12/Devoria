@@ -1,0 +1,23 @@
+.button-click {
+  @apply bg-purple-500 dark:bg-purple-500 dark:hover:bg-purple-600 text-white hover:bg-purple-600
+}
+
+@media (max-width: 1500px) {
+  .div-hide {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 1100px) {
+  .div-hide {
+    grid-template-columns: 1fr;
+  }
+}
+
+.dark .div-first {
+  background-color: #272822;
+}
+
+.dark .inside {
+  background-color: #71717A;
+}

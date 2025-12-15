@@ -1,0 +1,74 @@
+body {
+  padding-bottom: 50px;
+}
+
+.Developers-searchBar {
+  @apply mt-8 dark:text-white flex items-center px-4 py-4 rounded-2xl bg-gray-50
+}
+
+.dark .inpp {
+  background-color: #272822;
+  color: #CFCFCF;
+}
+
+.dark .Developers-searchBar,
+.dark .input-searchBar {
+  background-color: #272822;
+}
+
+.dark .ul-search {
+  background-color: #272822;
+}
+
+.cube-container {
+  position: absolute;
+  top: 200px;
+  width: 50px;
+  height: 50px;
+  perspective: 300px;
+}
+
+.cube {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  transform-style: preserve-3d;
+  animation: cube-spin 6s infinite linear;
+}
+
+.face {
+  width: 50px;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.763);
+  position: absolute;
+  opacity: 0.9;
+  border-radius: 4px;
+  box-shadow:
+    0 0 10px rgba(0, 255, 255, 0.8),
+    0 0 10px rgba(150,150,150,0.8);
+}
+
+.front  { transform: translateZ(25px); }
+.back   { transform: translateZ(-25px) rotateY(180deg); }
+.left   { transform: translateX(-25px) rotateY(-90deg); }
+.right  { transform: translateX(25px) rotateY(90deg); }
+.top    { transform: translateY(-25px) rotateX(90deg); }
+.bottom { transform: translateY(25px) rotateX(-90deg); }
+
+.react-logo {
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  top: 20%;
+  left: 20%;
+  z-index: 5;
+  opacity: 0.95;
+  filter: drop-shadow(0 0 4px #00e8ff);
+}
+
+@keyframes cube-spin {
+  from { transform: rotateX(0deg) rotateY(0deg); }
+  to   { transform: rotateX(360deg) rotateY(360deg); }
+}
+
+

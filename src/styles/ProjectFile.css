@@ -1,0 +1,17 @@
+
+.container-c {
+  @apply mt-11 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6;
+}
+
+.dark .second-part-p {
+  background-color: #272822;
+}
+
+.dark .button-p {
+  background-color: #5b5b60;
+}
+
+.dev-name {
+  font-family: "Playwrite CZ", cursive;
+  font-optical-sizing: auto;
+}

@@ -1,0 +1,380 @@
+{
+  "brand": "Devoria",
+  "nav": {
+    "developers": "Developers",
+    "projects": "Projects",
+    "communities": "Communities"
+  },
+  "buttons": {
+    "signIn": "Sign In",
+    "signUp": "Sign Up"
+  },
+  "developersPage": {
+    "title": "Browse Developers",
+    "subtitle": "Find talented developers with the skills you need",
+    "searchPlaceholder": "Search for developers...",
+    "noResults": "No results found"
+  },
+  "filterPage": {
+    "filterByCategory": "Filter by Category",
+    "categories": {
+      "all": "All",
+      "hack": "Hackers",
+      "webDevelopment": "Web Development",
+      "videoEditor": "Video Editor",
+      "design": "Design",
+      "mobileApps": "Mobile Apps",
+      "backend": "Backend",
+      "devOps": "DevOps",
+      "aiMl": "AI/ML"
+    },
+    "showingDevelopers": "Showing {{count}} Developers",
+    "advancedFilters": "Advanced Filters",
+    "location": "Location",
+    "locationPlaceholder": "City or State",
+    "experience": "Experience",
+    "experienceOptions": {
+      "any": "Any",
+      "junior": "Junior (0 - 2 years)",
+      "mid": "Mid (3 - 5 years)",
+      "senior": "Senior (+6 years)"
+    },
+    "skills": "Skills",
+    "skillsPlaceholder": "e.g., React, Python...",
+    "rating": "Rating",
+    "ratingOptions": {
+      "any": "Any",
+      "5stars": "5 stars",
+      "4plus": "4+ stars",
+      "3plus": "3+ stars"
+    }
+  },
+  "projects": {
+    "title": "Browse Projects",
+    "subtitle": "Discover inspiring projects from talented developers",
+    "searchPlaceholder": "Search for projects...",
+    "noResults": "No results found",
+    "showing": "Showing {{count}} Projects",
+    "filters": {
+      "advanced": "Advanced Filters",
+      "category": "Category",
+      "technology": "Technology",
+      "sort": "Sort By",
+      "categories": {
+        "all": "All Categories",
+        "web": "Web development",
+        "mobile": "Mobile Apps",
+        "ai": "AI and ML",
+        "blockchain": "Blockchain"
+      },
+      "technologies": {
+        "any": "Any",
+        "react": "React",
+        "vue": "Vue",
+        "node": "Node.js",
+        "angular": "Angular",
+        "rn": "React Native"
+      },
+      "sortOptions": {
+        "popular": "Most Popular",
+        "recent": "Most Recent",
+        "rating": "Most Rating"
+      }
+    }
+  },
+  "developerInsideProfile": {
+    "developerNotFound": "Developer not found.",
+    "availableForHire": "Available for hire",
+    "reviews": "reviews",
+    "requestService": "Request Service",
+    "sendMessage": "Send Message",
+    "tabs": {
+      "about": "About",
+      "portfolio": "Portfolio",
+      "reviews": "Reviews",
+      "services": "Services"
+    },
+    "reviewsPage": {
+      "noReviews": "No reviews yet.",
+      "averageRating": "Average Rating",
+      "totalReviews": "Total Reviews",
+      "positiveFeedback": "Positive Feedback",
+      "comments": "Comments"
+    },
+    "services": {
+      "hour": "hr",
+      "learnMore": "Learn More"
+    },
+    "serviceNames": {
+      "securityAudit": "Security Audit",
+      "penetrationTesting": "Penetration Testing",
+      "vulnerabilityAssessment": "Vulnerability Assessment",
+      "web": "Web Development",
+      "mobile": "Mobile App Development",
+      "design": "UI/UX Design",
+      "database": "Data Optimization",
+      "cloud": "Cloud Services",
+      "api": "API Integration",
+      "api2": "API Development",
+      "front": "Frontend Development",
+      "devOps": "DevOps Services",
+      "deployment": "Deployment Pipelines",
+      "videoEd": "Video Editing",
+      "videoAds": "Video Ads for web",
+      "mobileApps": "Mobile Apps"
+    },
+    "serviceDescriptions": {
+      "web": "Creation of fast, modern, and responsive websites...",
+      "mobile": "iOS and Android applications.",
+      "design": "Modern product-centric designs.",
+      "api": "RESTful and GraphQL APIs…",
+      "api2": "Secure backend API development",
+      "data": "High-performance MongoDB & SQL optimization",
+      "backend": "Backend API integration for mobile apps...",
+      "uis": "Beautiful and responsive UIs.",
+      "cicd": "CI/CD, automation, containers",
+      "api3": "API deployment & scaling on cloud",
+      "editing": "Cinematic editing & motion design",
+      "ads": "High-quality ads & video content for websites",
+      "securityAudit": "In-depth security audit to identify weaknesses in systems, applications, and infrastructure.",
+      "penetrationTesting": "Authorized penetration testing to simulate real-world attacks and evaluate system resilience.",
+      "vulnerabilityAssessment": "Comprehensive vulnerability assessment with detailed reports and mitigation strategies."
+    },
+    "hackerWarning": {
+      "title": "Restricted Hacker Services",
+      "message": "These services are sensitive and intended for defensive and authorized use only. Do you want to proceed?",
+      "confirm": "Proceed",
+      "cancel": "Exit"
+    },
+    "aboutMe": {
+      "title": "About Me",
+      "description1": {
+        "para1": "I'm a full-stack developer from Meknes with a strong focus on building scalable,high-performance web applications. With 8+ years of experience working with React, Node.js, and cloud technologies, I enjoy creating clean, maintainable architectures that make complex systems easy to use.",
+        "para2": "I love transforming ideas into polished products and helping companies grow through smart engineering and thoughtful UI/UX decisions."
+      },
+      "description2": {
+        "para1": "I'm a backend engineer specializing in Python, Django, and MongoDB. I love designing secure, efficient, and scalable server-side systems that power modern applications.",
+        "para2": "For the past years, I've helped startups and companies build solid backend architectures, optimize database performance, and deliver reliable APIs used by thousands of users."
+      },
+      "description3": {
+        "para1": "I'm a mobile developer based in Paris, passionate about crafting beautiful and intuitive mobile experiences. I specialize in React Native, Swift, and Kotlin, enabling me to build seamless apps for both iOS and Android.",
+        "para2": "My focus is on clean UI, smooth animations, and performance. I enjoy bringing creative ideas to life and building apps that users love using every day."
+      },
+      "description4": {
+        "para1": "I am a UI/UX-focused developer creating modern, visually appealing, and user-friendly web experiences. With strong expertise in React and frontend development, I blend design and engineering to build interfaces that feel smooth, intuitive, and delightful.",
+        "para2": "I believe that great design is not just how it looks, but how it works."
+      },
+      "description5": {
+        "para1": "I'm a DevOps engineer who loves building reliable, scalable, and automated infrastructure. I work with AWS, Docker, and Kubernetes to help companies deploy faster and operate more efficiently.",
+        "para2": "My passion is creating CI/CD pipelines, containerizing applications, and ensuring servers run smoothly 24/7."
+      },
+      "description6": {
+        "para1": "I'm a video editor and motion designer specializing in creating engaging visuals for brands and creators. Using tools like After Effects, Premiere Pro, and DaVinci Resolve, I turn ideas into cinematic stories.",
+        "para2": "I love blending creativity with technical precision to produce videos that capture attention and leave a lasting impact."
+      },
+      "description7": {
+        "para1": "Hacker and cybersecurity specialist focused on identifying vulnerabilities in networks, applications, and systems through authorized penetration testing and security assessments.",
+        "para2": "Provides security audits, vulnerability analysis, and defensive strategies to help organizations detect weaknesses and strengthen their digital infrastructure."
+      },
+      "skills": "Skills & Expertise"
+    },
+    "requestPage": {
+      "title": "Describe Your Project",
+      "subtitle": "Provide details about your project so the developer can better understand your needs",
+      "detailsTitle": "Project Details",
+      "detailsSubtitle": "The more information you provide, the better the developer can help you",
+      "projectTitle": "Project Title",
+      "projectTitlePlaceholder": "e.g., E-commerce Website Development",
+      "projectDescription": "Project Description",
+      "projectDescriptionPlaceholder": "Describe your project goals, features, and any specific requirements...",
+      "budget": "Budget Range",
+      "budgetSelect": "Select budget",
+      "budget1": "Less than $1000",
+      "budget2": "$1500 - $4000",
+      "budget3": "$5000 - $8000",
+      "budget4": "$10000+",
+      "timeline": "Timeline",
+      "timelineSelect": "Select timeline",
+      "timeline1": "ASAP (1-2 weeks)",
+      "timeline2": "1 month",
+      "timeline3": "3-6 months",
+      "timeline4": "6+ months",
+      "tech": "Technical Requirements",
+      "techPlaceholder": "List any specific technologies, platforms, or integrations needed...",
+      "cancel": "Cancel",
+      "sendRequest": "Send Request",
+      "successMessage": "Message sent successfully!",
+      "devInfo": "Developer Info",
+      "rate": "Rate:",
+      "availability": "Availability:",
+      "responseTime": "Response time:",
+      "responseWithin": "Within 24h",
+      "tips": "Tips for Success",
+      "tip1": "Be specific about your project goals",
+      "tip2": "Include examples or references if possible",
+      "tip3": "Mention any existing code or assets",
+      "tip4": "Clarify your budget and timeline expectations",
+      "alertFields": "Please fill all required fields!"
+    }
+  },
+  "projectInsideProfile": {
+    "backToProjects": "Back to Projects",
+    "price": "Price",
+    "deliveryTime": "Delivery Time",
+    "support": "Support",
+    "buyNow": "Buy Now",
+    "contactCreator": "Contact Creator",
+    "viewProfile": "View Profile",
+    "technologiesUsed": "Technologies Used",
+    "aboutThisProject": "About This Project",
+    "views": "Views",
+    "likes": "Likes",
+    "comments": "Comments",
+    "like": "Like",
+    "share": "Share",
+    "commentsTitle": "Comments ",
+    "commentPlaceholder": "Share your thoughts about this project...",
+    "postComment": "Post Comment",
+    "reviews": "reviews"
+  },
+  "homePage": {
+    "hero": {
+      "title": "Connect with <span class='text-highlight'>Elite Developers</span>",
+      "subtitle": "Devoria bridges the gap between visionaries and developers. Find talent, showcase your skills, and build the future together.",
+      "searchPlaceholder": "Search for developers..."
+    },
+    "getStarted": {
+      "title": "Get Started with Devoria",
+      "browseDevelopers": {
+        "title": "Browse Developers",
+        "desc": "Discover talented developers with diverse skills and experience",
+        "link": "Learn more"
+      },
+      "exploreProjects": {
+        "title": "Explore Projects",
+        "desc": "View inspiring projects and see what's possible",
+        "link": "Learn more"
+      },
+      "joinCommunities": {
+        "title": "Join Communities",
+        "desc": "Connect with like-minded developers in specialized groups",
+        "link": "Learn more"
+      },
+      "postServices": {
+        "title": "Post Services",
+        "desc": "Offer your expertise and grow your freelance business",
+        "link": "Learn more"
+      }
+    },
+    "featuredDevelopers": {
+      "title": "Featured Developers",
+      "desc": "Connect with top-rated developers ready to bring your ideas to life",
+      "viewAll": "View All Developers"
+    },
+    "trendingProjects": {
+      "title": "Trending Projects",
+      "desc": "Get inspired by amazing projects from our community",
+      "viewAll": "Explore All Projects"
+    },
+    "whyDevoria": {
+      "title": "Why Devoria",
+      "subtitle": "Built for Developers & Teams <span class='text-high'>Who Want More</span>",
+      "desc": "Devoria connects ambitious developers with real opportunities. Whether you’re showcasing your skills or searching for talent, our platform helps you collaborate, grow, and build meaningful digital products.",
+      "features": {
+        "findDevelopers": "Find Top Developers: Access skilled, verified developers ready to join your vision.",
+        "showcaseSkills": "Showcase Your Skills: Build a profile that highlights your talent, experience, and completed projects.",
+        "collaborate": "Collaborate Easily: Connect with teams, join projects, and build together faster and more efficiently."
+      },
+      "cta": "Join Devoria Today"
+    },
+    "team": {
+      "title": "Who We Are",
+      "subtitle": "Not just a platform — a <span class='text-high'>developer-first ecosystem.</span>",
+      "lead": "At Devoria, we believe that great products start with great talent. Our mission is to empower developers and teams by giving them the tools and visibility they need to collaborate and grow.",
+      "values": {
+        "mission": "Connect developers with opportunities, teams, and meaningful projects worldwide.",
+        "values": "Transparency, collaboration, and continuous learning — no ego, no gatekeeping."
+      },
+      "desc": "We’re a team of developers, designers, and innovators who understand the real challenges of building software. Devoria was created to remove barriers, highlight talent, and help creators turn ideas into real, impactful products.",
+      "meetTeam": "Meet the Team"
+    },
+    "ctaSection": {
+      "readyTitle": "Ready to Get Started?",
+      "readyDesc": "Join thousands of developers and clients building the future together",
+      "browseDevelopers": "Browse Developers",
+      "signUp": "Sign Up Now"
+    },
+    "cloudCTA": {
+      "title": "Ready to reduce your Cloud costs?",
+      "desc": "Don't let your infrastructure burn your budget. Request your free flash audit (worth €1500).",
+      "emailPlaceholder": "your@email.com",
+      "button": "Get My Audit",
+      "note": "🔒 No spam. Just tech."
+    }
+  },
+  "createCommunity": {
+    "title": "Create Your Community",
+    "subtitle": "Build a space for developers to connect, collaborate, and grow together",
+    "detailsTitle": "Community Details",
+    "detailsSubtitle": "Set up your community with a name, description, and privacy settings",
+    "nameLabel": "Community Name *",
+    "namePlaceholder": "e.g., React Developers Hub",
+    "descriptionLabel": "Description *",
+    "descriptionPlaceholder": "Describe what your community is about...",
+    "tagsLabel": "Technologies/Languages (separated by commas) *",
+    "tagsPlaceholder": "JavaScript, Python, React...",
+    "privacyLabel": "Community Type *",
+    "privacyPublic": "🌍 Public",
+    "privacyPrivate": "🔒 Private",
+    "accessCodeLabel": "Access Code *",
+    "accessCodeHelper": "Members will need this code to join the community.",
+    "coverImageLabel": "Cover Image *",
+    "or": "or",
+    "imageUrlPlaceholder": "Enter an image URL...",
+    "cancel": "Cancel",
+    "submit": "Create Community"
+  },
+  "myCommunity": {
+    "back": "Back",
+    "title": "My Communities"
+  },
+  "communities": {
+    "title": "Communities",
+    "subtitle": "Join specialized groups and connect with developers",
+    "myCommunities": "My Communities",
+    "createCommunity": "Create a Community",
+    "searchPlaceholder": "Search for a community...",
+    "back": "Back"
+  },
+  "signin": {
+    "welcomeBack": "Welcome back",
+    "description": "Sign in to access your dashboard, preferences and saved items. Fast and secure — just email and password.",
+    "tip": "Tip: If you don’t have an account you can create one on the Sign Up page.",
+    "signinTitle": "Sign in to your account",
+    "enterDetails": "Enter your details below.",
+    "email": "Email",
+    "password": "Password",
+    "remember": "Remember",
+    "forgot": "Forgot?",
+    "submit": "Sign In",
+    "noAccount": "No account?",
+    "signup": "Sign up"
+  },
+  "signup": {
+    "welcome": "Create your account",
+    "description": "Create a free account to save your settings and access premium features later. We keep things secure and simple.",
+    "tip": "Fill the form to get started.",
+    "signupTitle": "Create your account",
+    "enterDetails": "Enter your details below.",
+    "fullname": "Full name",
+    "fullnamePlaceholder": "John Doe",
+    "email": "Email",
+    "emailPlaceholder": "you@domain.com",
+    "password": "Password",
+    "passwordPlaceholder": "Choose a password",
+    "submit": "Create account",
+    "alreadyAccount": "Already have an account?",
+    "signin": "Sign in",
+    "privacy": "Privacy: We will never share your email."
+  }
+}

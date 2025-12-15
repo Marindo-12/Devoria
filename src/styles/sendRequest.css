@@ -1,0 +1,42 @@
+.dark .send-header {
+  background-color: #272822;
+}
+
+.hacker-header {
+  background: linear-gradient(90deg, #3b0000, #000);
+  color: #fca5a5;
+  border-bottom: 1px solid #7f1d1d;
+}
+
+.hacker-footer {
+  background: linear-gradient(90deg, #000, #3b0000);
+  border-top: 1px solid #7f1d1d;
+}
+
+.bg-red-700 {
+  background-color: #7f1d1d !important;
+}
+
+.bg-red-800:hover {
+  background-color: #ff0000 !important;
+}
+
+.text-red-500 {
+  color: #fca5a5 !important;
+}
+
+.border-red-700 {
+  border-color: #7f1d1d !important;
+}
+
+.focus\:ring-red-500:focus {
+  box-shadow: 0 0 0 2px rgba(252, 165, 165, 0.5);
+}
+
+.hacker-main {
+  background-color: #272822;
+}
+
+.hack-emogie {
+  background-color: #b3d216;
+}

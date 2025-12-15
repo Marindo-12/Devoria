@@ -1,0 +1,15 @@
+.dark .second-div,
+.dark .third-div,
+.dark .fourth-div,
+.dark .fifth-div1,
+.dark .sixth-div {
+  background-color: #272822;
+}
+
+.dark .second-div1 {
+  background-color: #3c3c3c;
+}
+
+.dark .first-div {
+  @apply hover:bg-neutral-700;
+}

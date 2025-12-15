@@ -1,0 +1,34 @@
+.port-em {
+  position: relative;
+  overflow: hidden;
+}
+
+.sand-particle {
+  position: absolute;
+  width: 10px;
+  height: 20px;
+  background: linear-gradient(to bottom, #faa911, transparent);
+  
+  top: var(--random-top);
+  left: var(--random-left);
+  
+  opacity: 0.6;
+  transform: scale(var(--random-scale));
+  
+  animation: sandstorm 8s linear infinite;
+  animation-delay: var(--random-delay);
+}
+
+@keyframes sandstorm {
+  0% {
+    transform: translate(0, 0) rotate(0deg) scale(var(--random-scale));
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    transform: translate(200px, 200px) rotate(45deg) scale(var(--random-scale));
+    opacity: 0;
+  }
+}

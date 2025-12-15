@@ -1,0 +1,67 @@
+.dark .service-card {
+  background-color: #272822;
+}
+
+.hacker-warning {
+  background: linear-gradient(145deg, #0a0a0a, #1a0000);
+  border: 1px solid #7f1d1d;
+  border-radius: 18px;
+  padding: 28px;
+  margin-top: 30px;
+  text-align: center;
+  color: #fecaca;
+  box-shadow: 0 0 45px rgba(255, 0, 0, 0.25);
+}
+
+.hacker-warning h3 {
+  font-size: 1.4rem;
+  color: #ef4444;
+  margin-top: 12px;
+}
+
+.hacker-warning p {
+  font-size: 0.95rem;
+  margin-top: 8px;
+}
+
+.danger-icon {
+  color: #ef4444;
+  filter: drop-shadow(0 0 12px rgba(239, 68, 68, 0.8));
+}
+
+.warning-actions {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  margin-top: 22px;
+}
+
+.btn-danger {
+  background: #7f1d1d;
+  color: white;
+  padding: 10px 22px;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+.btn-danger:hover {
+  background: #991b1b;
+}
+
+.btn-cancel {
+  background: transparent;
+  border: 1px solid #374151;
+  color: #9ca3af;
+  padding: 10px 22px;
+  border-radius: 12px;
+}
+
+.service-card-danger {
+  background: linear-gradient(145deg, #0b0b0b, #160000);
+  border-color: #7f1d1d;
+  color: #fecaca;
+}
+
+.service-card-danger:hover {
+  box-shadow: 0 0 25px rgba(255, 0, 0, 0.25);
+}

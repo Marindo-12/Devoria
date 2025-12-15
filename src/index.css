@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-size: 16px;
+}
+
+#root {
+  padding: 0 !important;
+}
+
+.app-content {
+  position: relative;
+  z-index: 1; 
+}
+
+body {
+  margin: 0;
+  font-family: Inter, "DM Sans", sans-serif;
+  @apply dark:text-white;
+  zoom: 1;
+  transform: none;
+}
+
+.dark body{
+  background-color: #34352F;
+}
+
+.dark .header,
+.dark footer {
+  background-color: #272822 !important;
+} 

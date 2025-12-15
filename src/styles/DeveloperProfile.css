@@ -1,0 +1,151 @@
+main {
+  @apply px-10
+}
+
+
+
+.container-c {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  @apply mt-11
+}
+
+@media (max-width: 1530px) {
+  .container-c {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 1100px) {
+  .container-c {
+    grid-template-columns: 1fr;
+  }
+}
+
+.devProfile-container {
+  @apply  bg-gray-50  rounded-3xl px-7 py-4 border cursor-pointer hover:bg-stone-100 ;
+}
+
+.dark .devProfile-container {
+  background-color: #272822;
+}
+
+.first {
+  @apply flex items-center
+}
+
+.first-info {
+  @apply ms-5
+}
+
+.profile-image {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.first-info-name {
+  font-weight: bold;
+  @apply text-lg
+}
+
+.first-info-domain {
+  color: #71717A;
+}
+
+.second {
+  @apply flex justify-between items-center my-5
+}
+
+.second-location,
+.second-rate {
+  @apply flex items-center 
+}
+
+.second-location-p {
+  @apply ms-1 text-sm;
+  color: #71717A;
+}
+
+.second-rate-p {
+  @apply ms-2 font-semibold ;
+}
+
+.third-button {
+  @apply px-3 dark:hover:bg-slate-300 py-1 rounded-lg font-semibold text-sm bg-slate-200 ms-3 hover:bg-slate-300;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dark .third-button {
+  background-color: #71717A;
+}
+
+.third {
+  @apply flex flex-wrap gap-2
+}
+
+.devProfile-container {
+  position: relative;
+  overflow: hidden;
+  padding: 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.devProfile-container:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(180, 120, 255, 0.4); 
+}
+
+.dark .devProfile-container .third-button {
+  color: #ffffff;
+}
+
+.devProfile-container .third-button {
+  border-radius: 6px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.devProfile-container .third-button:hover {
+  background-color: #9B59B6; 
+  color: #ffffff;
+}
+
+.devProfile-container .profile-image {
+  border: 2px solid #BE90D4; 
+}
+
+.hacker-theme {
+  background: linear-gradient(145deg, #0b0b0b, #1a0000);
+  border: 1px solid #7f1d1d;
+  box-shadow: 0 0 25px rgba(255, 0, 0, 0.25);
+  color: #fecaca;
+}
+
+.hacker-theme .first-info-name {
+  color: #ef4444;
+  font-weight: 700;
+}
+
+.hacker-theme .first-info-domain {
+  color: #f87171;
+}
+
+.hacker-theme .second-rate-p {
+  color: #facc15;
+}
+
+.hacker-theme .profile-image {
+  border: 2px solid #7f1d1d;
+  box-shadow: 0 0 20px rgba(239, 68, 68, 0.6);
+}
+
+.hacker-theme .third {
+  color: #ef4444;
+  font-weight: 600;
+}
+
+.hacker-theme:hover {
+  box-shadow: 0 0 45px rgba(255, 0, 0, 0.45);
+  transform: translateY(-2px);
+}

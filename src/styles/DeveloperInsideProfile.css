@@ -1,0 +1,84 @@
+.third-button1 {
+  @apply px-4 py-1 dark:text-gray-600 rounded-lg font-semibold  hover:bg-slate-300 text-xs;
+  background-color: #E9E9EC;
+}
+
+.profile-firstPart {
+  @apply bg-gray-50 rounded-3xl border mx-1 p-12  items-start gap-2 md:gap-4 flex flex-col md:flex-row;
+}
+
+.dark .profile-firstPart,
+.dark .profile-secondPart {
+  background-color: #272822;
+}
+
+.first-1 {
+  @apply flex-1 flex-col flex gap-1
+}
+
+.first-button {
+  @apply w-full py-2 font-medium rounded-lg border text-sm
+} 
+
+.profile-secondPart {
+  @apply mt-10 bg-gray-200 border p-1 rounded-lg w-fit
+}
+
+.list {
+  @apply cursor-pointer px-2 md:px-3 py-1 rounded-lg hover:shadow-md;
+}
+
+.dark .list {
+  background-color: #ffffff;
+}
+
+.aboutMe {
+  color: #717170
+}
+
+.hacker-theme-page {
+  background: radial-gradient(circle at top, #1a0000, #000000);
+  color: #fecaca;
+  padding-bottom: 50px;
+}
+
+.hacker-theme-page .profile-firstPart,
+.hacker-theme-page .profile-secondPart {
+  background-color: #151512;
+}
+
+.hacker-theme-page h1,
+.hacker-theme-page h2,
+.hacker-theme-page h3 {
+  color: #ef4444;
+}
+
+.hacker-theme-page p {
+  color: #fca5a5;
+}
+
+.hacker-theme-page img {
+  border-color: #7f1d1d !important;
+  box-shadow: 0 0 25px rgba(255, 0, 0, 0.6);
+}
+
+.hacker-tab {
+  background: #0f0f0f;
+  border: 1px solid #7f1d1d;
+  color: #f87171;
+}
+
+.hacker-tab:hover {
+  background: #1a0000;
+}
+
+.btn-hacker-danger {
+  background: linear-gradient(135deg, #7f1d1d, #000000);
+  color: #fff;
+  border: 1px solid #991b1b;
+}
+
+.btn-hacker-danger:hover {
+  background: linear-gradient(135deg, #991b1b, #000000);
+}
+
