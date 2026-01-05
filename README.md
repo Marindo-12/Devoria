@@ -71,3 +71,5 @@ export default defineConfig([
   },
 ])
 ```
+## Contributors
+- Yassine Chouyoukh
