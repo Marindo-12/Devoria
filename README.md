@@ -73,3 +73,4 @@ export default defineConfig([
 ```
 ## Contributors
 - Yassine Chouyoukh
+- Mohamed Ait Hammadi
