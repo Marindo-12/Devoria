@@ -1,76 +1,109 @@
-# React + TypeScript + Vite
+# Devoria
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Devoria is a web platform that connects clients with developers and development communities.  
+The app includes developer discovery, project browsing, profile details, reviews/comments, service request flow, multilingual UI (EN/FR/AR), and community pages.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Frontend: React 19, TypeScript, Vite, React Router
+- Styling: CSS, TailwindCSS, Sass
+- Internationalization: i18next, react-i18next
+- Backend (local API): Express + CORS (stores comments in `comments.json`)
+- Testing: Vitest + Testing Library
+- Deployment: Firebase Hosting (SPA rewrite enabled)
 
-## React Compiler
+## Project Structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- `src/` main frontend app
+- `public/` static assets and community data
+- `server.js` local Express API for comments
+- `comments.json` local file-based comments storage
+- `firebase.json` + `.firebaserc` Firebase hosting configuration
 
-## Expanding the ESLint configuration
+## Prerequisites
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Node.js 18+ (Node.js 20+ recommended)
+- npm (comes with Node.js)
+- Git
+- Firebase CLI (only if you want deployment)
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install -g firebase-tools
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## How To Get The Project
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+git clone https://github.com/Marindo-12/Devoria.git
+cd Devoria
 ```
+
+## Install Packages
+
+Install all dependencies:
+
+```bash
+npm install
+```
+
+### Main Runtime Packages
+
+- `react`, `react-dom`, `react-router-dom`
+- `i18next`, `react-i18next`, `i18next-browser-languagedetector`
+- `express`, `cors`
+- `firebase`
+- `dayjs`, `lucide-react`, `react-responsive`, `uuid`
+
+### Main Development Packages
+
+- `typescript`, `vite`, `@vitejs/plugin-react`
+- `eslint`, `@eslint/js`, `typescript-eslint`, `eslint-plugin-react-hooks`, `eslint-plugin-react-refresh`
+- `vitest`, `jsdom`, `@testing-library/react`, `@testing-library/jest-dom`, `@testing-library/user-event`
+- `tailwindcss`, `postcss`, `autoprefixer`, `sass-embedded`
+- `concurrently`
+
+## Available Scripts
+
+- `npm run dev`: start frontend (Vite) and local API (`server.js`) together
+- `npm run start`: same as `dev`
+- `npm run build`: type-check and build production files to `dist/`
+- `npm run preview`: preview production build locally
+- `npm run lint`: run ESLint
+- `npm run test`: run Vitest once
+- `npm run test:watch`: run tests in watch mode
+- `npm run test:ui`: run Vitest UI
+
+## Run Locally
+
+```bash
+npm run dev
+```
+
+By default:
+
+- Frontend: `http://localhost:5173`
+- Local comments API: `http://localhost:5000`
+
+## Build For Production
+
+```bash
+npm run build
+npm run preview
+```
+
+## Firebase Deployment
+
+This project is configured to deploy `dist/` as a single-page app.
+
+```bash
+npm run build
+firebase login
+firebase deploy
+```
+
+Current Firebase default project in `.firebaserc`: `devoria-2ce34`.
+
 ## Contributors
+
 - Yassine Chouyoukh
 - Mohamed Ait Hammadi
